@@ -1,0 +1,59 @@
+[ {
+	"type" : "item",
+	"ref" : "item-naibortokens",
+	"name" : "Money!",
+	"in" : "user-naibor",
+	"mods" : [ {
+		"type" : "Tokens",
+		"y" : 0,
+		"denom_hi" : 4,
+		"denom_lo" : 0
+	} ]
+}, {
+	"type" : "item",
+	"ref" : "item-naiborgodtool",
+	"name" : "Tool to rule the universe.",
+	"in" : "user-naibor",
+	"mods" : [ {
+		"type" : "Knick_knack",
+		"style" : 2,
+		"y" : 2,
+		"orientation" : 8,
+		"magic_type" : 17,
+		"charges" : 255
+	} ]
+}, {
+	"type" : "item",
+	"ref" : "item-naiborPaper",
+	"name" : "Pad and mailbox",
+	"in" : "user-naibor",
+	"mods" : [ {
+		"type" : "Paper",
+		"orientation" : 16,
+		"y" : 4
+	} ]
+}, {
+	"type" : "item",
+	"ref" : "item-naiborhead",
+	"name" : "Naibor's Head",
+	"in" : "user-naibor",
+	"mods" : [ {
+		"type" : "Head",
+		"style" : 119,
+		"y" : 6
+	} ]
+}, {
+	"type" : "user",
+	"ref" : "user-naibor",
+	"name" : "Naibor",
+	"mods" : [ {
+		"type" : "Avatar",
+		"turf": "context-Fast_Ln_624_interior",
+		"x" : 0,
+		"y" : 150,
+		"bodyType" : "male",
+		"bankBalance" : 500000,
+		"custom" : [ 17, 119 ],
+		"nitty_bits" : 8
+	} ]
+} ]

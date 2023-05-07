@@ -1,0 +1,43 @@
+[ {
+	"type" : "user",
+	"ref" : "user-walker",
+	"name" : "Walker",
+	"mods" : [ {
+		"type" : "Avatar",
+		"x" : 0,
+		"y" : 150,
+		"bodyType" : "female",
+		"transition_type" : 0,
+		"bankBalance" : 100,
+		"custom" : [ 203, 103 ]
+
+	} ]
+}, {
+	"type" : "item",
+	"ref" : "item-walkerhead",
+	"name" : "walker's Head",
+	"in" : "user-walker",
+	"mods" : [ {
+            "type" : "Head",
+            "y" : 6,
+            "style" : 131,
+            "orientation" : 8
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-walker.paper",
+	"name" : "Pad and mailbox",
+	"in" : "user-walker",
+	"mods" : [ {
+		"type" : "Paper",
+		"orientation" : 16,
+		"y" : 4
+	} ]
+}
+  
+  
+]
+
+
+

@@ -7,6 +7,7 @@
 		"x" : 50,
 		"y" : 130,
 		"bodyType" : "female",
+		"transition_type" : 1,
 		"bankBalance" : 50000,
 		"custom" : [ 102, 136 ]
 	} ]
@@ -31,4 +32,21 @@
 		"y" : 6,
 		"orientation" : 8
 	} ]
-} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-janet.windup_toy",
+	"name" : "Windup_toy",
+	"in" : "user-janet",
+	"mods" : [ {
+            "orientation" : 1,
+            "x" : 39,
+            "y" : 1,
+            "style" : 0,
+            "gr_state" : 0,
+            "type" : "Windup_toy",
+            "wind_level" : 0
+	} ]
+}
+
+ ]

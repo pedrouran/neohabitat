@@ -1,0 +1,42 @@
+[ {
+	"type" : "user",
+	"ref" : "user-curser",
+	"name" : "Curser",
+	"mods" : [ {
+		"type" : "Avatar",
+		"x" : 50,
+		"y" : 130,
+		"bodyType" : "male",
+		"transition_type" : 0,
+		"bankBalance" : 100,
+		"custom" : [ 17, 101 ]
+
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-curserhead",
+	"name" : "curser's Head",
+	"in" : "user-curser",
+	"mods" : [ {
+		"type" : "Head",
+	        "y" : 6,
+        	"style" : 178,
+            	"orientation" : 16
+       	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-curser.paper",
+	"name" : "Pad and mailbox",
+	"in" : "user-curser",
+	"mods" : [ {
+		"type" : "Paper",
+		"orientation" : 16,
+		"y" : 4
+	} ]
+}
+
+
+
+]

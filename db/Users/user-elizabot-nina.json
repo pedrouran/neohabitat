@@ -1,0 +1,67 @@
+[ {
+	"type" : "user",
+	"ref" : "user-elizabot",
+	"name" : "elizabot",
+	"mods" : [ {
+		"type" : "Avatar",
+		"x" : 50,
+		"y" : 130,
+		"bodyType" : "female",
+		"transition_type" : 1,
+		"bankBalance" : 100,
+		"custom" : [ 101, 116 ]
+	} ]
+}, {
+	"type" : "item",
+	"ref" : "item-elizabot.paper",
+	"name" : "Pad and mailbox",
+	"in" : "user-elizabot",
+	"mods" : [ {
+		"type" : "Paper",
+		"orientation" : 16,
+		"y" : 4
+	} ]
+}, {
+	"type" : "item",
+	"ref" : "item-elizabot.head",
+	"name" : "elizabot's Head",
+	"in" : "user-elizabot",
+	"mods" : [ {
+		"type" : "Head",
+		"style" : 214,
+		"y" : 6,
+		"orientation" : 8
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-elizabot.windup_toy",
+	"name" : "Windup_toy",
+	"in" : "user-elizabot",
+	"mods" : [ {
+            "orientation" : 1,
+            "x" : 39,
+            "y" : 5,
+            "style" : 0,
+            "gr_state" : 0,
+            "type" : "Windup_toy",
+            "wind_level" : 0
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-elizabot.amulet",
+	"name" : "Amulet",
+	"in" : "user-elizabot",
+	"mods" : [ {
+            "orientation" : 0,
+            "magic_type" : 1,
+            "x" : 16,
+            "y" : 0,
+            "style" : 0,
+            "gr_state" : 0,
+            "type" : "Amulet"
+	} ]
+}
+
+]

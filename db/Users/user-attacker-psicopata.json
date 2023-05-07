@@ -1,0 +1,55 @@
+[ {
+	"type" : "user",
+	"ref" : "user-attacker",
+	"name" : "attacker",
+	"mods" : [ {
+		"type" : "Avatar",
+		"x" : 50,
+		"y" : 130,
+		"bodyType" : "male",
+		"transition_type" : 0,
+		"bankBalance" : 100,
+		"custom" : [ 117, 17 ]
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-attacker.paper",
+	"name" : "Pad and mailbox",
+	"in" : "user-attacker",
+	"mods" : [ {
+		"type" : "Paper",
+		"orientation" : 16,
+		"y" : 4
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-attacker.head.json",
+	"name" : "attacker's Head",
+	"in" : "user-attacker",
+	"mods" : [ {
+		"type" : "Head",
+            	"style" : 180,
+            	"orientation" : 0,
+		"y" : 6
+	}
+	]
+},{
+    "in" : "user-attacker",
+    "name" : "knife",
+    "type" : "item",
+    "ref" : "item-attacker.knife",
+    "mods" : [ 
+        {
+            "orientation" : 16,
+            "x" : 116,
+            "y" : 5,
+            "style" : 1,
+            "gr_state" : 0,
+            "type" : "Knife"
+        }
+    ]
+}
+
+]

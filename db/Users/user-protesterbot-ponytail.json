@@ -1,0 +1,58 @@
+[ {
+	"type" : "user",
+	"ref" : "user-protester",
+	"name" : "protester",
+	"mods" : [ {
+		"type" : "Avatar",
+		"x" : 50,
+		"y" : 130,
+		"bodyType" : "female",
+		"transition_type" : 1,
+		"bankBalance" : 100,
+		"custom" : [ 201, 91 ]
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-protester.paper",
+	"name" : "Pad and mailbox",
+	"in" : "user-protester",
+	"mods" : [ {
+		"type" : "Paper",
+		"orientation" : 16,
+		"y" : 4
+	} ]
+},
+{
+	"type" : "item",
+	"ref" : "item-protester.head.json",
+	"name" : "protester's Head",
+	"in" : "user-protester",
+	"mods" : [ {
+
+            "y" : 6,
+            "style" : 80,
+            "orientation" : 3,
+            "type" : "Head"
+
+	}
+	]
+},
+{
+	"type" : "item",
+	"ref" : "item-protester.amulet",
+	"name" : "Amulet",
+	"in" : "user-protester",
+	"mods" : [ {
+            "orientation" : 0,
+            "magic_type" : 1,
+            "x" : 16,
+            "y" : 5,
+            "style" : 0,
+            "gr_state" : 0,
+            "type" : "Amulet"
+	} ]
+}
+
+
+]
